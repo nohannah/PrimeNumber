@@ -1,19 +1,19 @@
-# #Ask for enter the number from the use  
-# num= int(input("Enter the integer number: "))  
+#Ask for enter the number from the use  
+num= int(input("Enter the integer number: "))  
   
-# # Initiate value to null  
-# revs_num = 0  
+# Initiate value to null  
+revs_num = 0  
   
-# # reverse the integer number using the while loop  
+# reverse the integer number using the while loop  
   
-# while (num > 0):  
-#     # Logic  
-#     remainder = num % 10  
-#     revs_number = (revs_number * 10) + remainder  
-#     number = number // 10  
+while (num > 0):  
+    # Logic  
+    remainder = num % 10  
+    revs_number = (revs_number * 10) + remainder  
+    number = number // 10  
   
-# # Display the result  
-# print("The reverse number is : {}".format(revs_number))  
+# Display the result  
+print("The reverse number is : {}".format(revs_number))  
 from math import remainder
 
 
